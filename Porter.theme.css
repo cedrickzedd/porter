@@ -2,7 +2,7 @@
 * @name Porter
 * @description Porter Robinson theme
 * @author Cedrick	
-* @version 0.0.3
+* @version 0.0.1
 */
 
 @import url("https://cedrickzedd.github.io/porter/lightmodeBeGone.css");
@@ -19,10 +19,3 @@
     --pr-bg: url('https://ze-robot.com/images/source/34606.jpg') center/cover no-repeat;
 }
 
-.theme-light{
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent;
-    --background-tertiary: transparent;
-    --pr-bg: url('https://ze-robot.com/images/source/34606.jpg') center/cover no-repeat;
-}
