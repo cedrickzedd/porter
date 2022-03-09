@@ -198,7 +198,7 @@ body{
     background-color: transparent!important
 }
 .theme-dark .menu-1QACrS::before,
-.dark-theme .menu-1QACrS.submenu-1apzyU::before {
+.theme-dark .menu-1QACrS.submenu-1apzyU::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -304,7 +304,7 @@ body{
 
 
 
-
+.theme-light .wrapper-1ZcZW-{color:white;}
 
 .theme-light .headerClickable-zGQJz3, .theme-light .headerDefault-1e6yjj, .theme-light .headerExpanded-1-zwDr, .theme-light .changeDetails-1kMZqI{background-color: rgba(0, 0, 0, 0.5);}
 
