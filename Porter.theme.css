@@ -12,9 +12,8 @@
 
 
 :root{
-	--code-font: 'Source Code Pro';
+    --code-font: 'Source Code Pro';
 }
-
 
 .theme-dark, .theme-light{
     --background-primary: transparent;
@@ -40,7 +39,7 @@
     --text-warning: hsl(38,calc(var(--saturation-factor, 1)*95.7%),54.1%);
     --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
     --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
-	--interactive-normal: #b9bbbe;
+    --interactive-normal: #b9bbbe;
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
