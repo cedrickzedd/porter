@@ -214,10 +214,10 @@ body{
     height: 100%;
     width: 100%;
     backdrop-filter: blur(2.5px);
-    background-color: rgb(251, 250, 245 / 45%)!important;
+    background-color: rgb(251 250 245 / 45%)!important;
     border-radius: 8px;
 }
-
+.label-2gNW3x{color: #e9e9e9!important;}
 
 
 
@@ -304,8 +304,12 @@ body{
 
 
 
-.theme-light .wrapper-1ZcZW-{color:white;}
+.theme-light .wrapper-1ZcZW-{color:white!important;}
 
 .theme-light .headerClickable-zGQJz3, .theme-light .headerDefault-1e6yjj, .theme-light .headerExpanded-1-zwDr, .theme-light .changeDetails-1kMZqI{background-color: rgba(0, 0, 0, 0.5);}
 
 .changeDetails-1kMZqI *, .overflowEllipsis-BfHznL > span > strong{color: white!important;}
+
+
+
+
