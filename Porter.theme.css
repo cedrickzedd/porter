@@ -6,15 +6,3 @@
  */
 
 @import url("https://cedrickzedd.github.io/porter/main.css");
-
-/*   Theme transparency values for dark mode   */
-
-
-.theme-dark{
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-secondary-alt: transparent;
-    --background-tertiary: transparent;
-    --pr-bg: url('https://ze-robot.com/images/source/34606.jpg') center/cover no-repeat;
-}
-
