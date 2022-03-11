@@ -1,0 +1,8 @@
+{
+    "name": "porter",
+    "version": "0.0.1",
+    "author": "Cedrick#6644 & Cedrick#7281",
+    "license": "MIT",
+    "theme": "porter.theme.css",
+    "description": "A theme for fans of Porter Robinson (Try Light and Dark Mode!)"
+}
