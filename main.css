@@ -1,8 +1,3 @@
-
-:root{
-    --code-font: 'Source Code Pro';
-}
-
 .theme-dark, .theme-light{
     --background-primary: transparent;
     --background-secondary: transparent;
@@ -35,58 +30,7 @@
     --header-secondary: #b9bbbe;
 }
 
-.codeBlockText-311wOq,
-code {
-    font-family: var(--code-font);
-}
-code.css:before {
-	float: left;
-    padding: 0 5px;
-	    content: "CSS";
-    color: #ffffff50;
 
-}
-code.css .hljs-selector-id{color:#81a2be!important}
-
-code.css .hljs-selector-class{color:#4271ae!important}
-
-code.css .hljs-meta{color:#c82829!important}
-
-code.css .hljs-attribute{color:#eab700!important}
-
-code.css .hljs-selector-tag{color:#8959a8!important}
-
-
-
-code.css{border-radius: 8px;	user-select:all;
-}
-
-
-.markup-eYLPri pre>.hljs {
-    position: relative;
-    padding: 12px;
-    background: rgba(0,0,0,.42);
-    border: 1px solid rgba(255,255,255,.3);
-    color: rgba(255,255,255,.7);
-}
-code button {
-  top: 0;
-  padding: 0 6px;
-  bottom: unset !important;
-  line-height: 15px;
-  border-radius: 4px;
-}
-code:not(.inline) {
-  overflow: auto;
-  white-space: pre;
-}
-code::-webkit-scrollbar {
-  height: 4px;
-}
-code::-webkit-scrollbar-thumb {
-  border-radius: 5px;
-  background-color: var(--background-secondary-alt);
-}
 
 
 #floating-editor-window{
@@ -310,7 +254,4 @@ body{
 .theme-light .headerClickable-zGQJz3, .theme-light .headerDefault-1e6yjj, .theme-light .headerExpanded-1-zwDr, .theme-light .changeDetails-1kMZqI{background-color: rgba(0, 0, 0, 0.5);}
 
 .changeDetails-1kMZqI *, .overflowEllipsis-BfHznL > span > strong{color: white!important;}
-
-
-
 
