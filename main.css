@@ -110,7 +110,7 @@ body{
 	margin-right: 4px;
 }
 
-.theme-dark .bd-transparency{
+.theme-dark{
 	opacity:1;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in;
