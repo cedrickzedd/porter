@@ -7,8 +7,23 @@
  * @invite hGNtQ8rMQb
  */
 
+
+/*DO NOT TOUCH*/
 @import url("https://cedrickzedd.github.io/porter/main.css");
 @import url("https://cedrickzedd.github.io/Badges4All/badges4all.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
+/*
+
+Optional, all three imports below must be deleted if you don't want the icons
+
+*/
+/* Icons settings by CorrellanStoma*/
+/*https://github.com/CreArts-Community/Settings-Icons/*/
+
+@import url("https://crearts-community.github.io/Settings-Icons/theme.css");
+
+@import url("https://crearts-community.github.io/Settings-Icons/modules/plugins/betterdiscord.css");
+
+@import url("https://crearts-community.github.io/Context-Icons/clients/betterdiscord.css");
