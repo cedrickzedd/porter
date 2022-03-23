@@ -1,3 +1,6 @@
+:root{
+    --p-border-radius-server:8px;
+}
 .theme-dark, .theme-light{
     --background-primary: transparent;
     --background-secondary: transparent;
@@ -110,7 +113,7 @@ body{
 	margin-right: 4px;
 }
 
-.theme-dark{
+.theme-dark body{
 	opacity:1;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in;
@@ -255,3 +258,36 @@ body{
 
 .changeDetails-1kMZqI *, .overflowEllipsis-BfHznL > span > strong{color: white!important;}
 
+
+
+
+
+.wrapper-1_HaEi *{
+-webkit-mask: none;
+mask: none;
+border-radius: var(--p-border-radius-server);
+}
+.guildSeparator-a4uisj{
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.guildSeparator-a4uisj::before{
+    content:"";
+    width:20px;
+    height:2px;
+    display: block;
+    background-color: var(--background-modifier-accent);
+    position: absolute;
+    left:26px;
+    top:0px;
+}
+.guildSeparator-a4uisj::after{
+    content:"";
+    width:16px;
+    height:2px;
+    display: block;
+    background-color: var(--background-modifier-accent);    position: absolute;
+    left:28px;
+    top:4px;
+    position: absolute;
+}
