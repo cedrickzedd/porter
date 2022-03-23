@@ -1,3 +1,4 @@
+/*Theme*/
 :root{
     --p-border-radius-server:8px;
 }
@@ -290,4 +291,43 @@ border-radius: var(--p-border-radius-server);
     left:28px;
     top:4px;
     position: absolute;
+}
+/*User Area / User Panel*/
+.panels-3wFtMD{
+    background-color: transparent;
+    width: 225px;
+    position: absolute;
+    bottom:10px;
+    left:0px;
+    transition: 0.5s;
+    border-radius: 4px;
+    box-shadow:  2px 2px 5px #bebebe30,
+    -2px -2px 5px #ffffff01;
+  }
+.panels-3wFtMD:hover{
+  transition: 0.5s;
+  -webkit-box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.76); 
+  box-shadow: 3px 5px 15px -4px rgba(0,0,0,0.76);
+  border-radius: var(--ns-border-radius);
+}
+
+/*User Area Buttons Mute Deafen Settings / User Panel Buttons Mute Deafen Settings*/
+.panels-3wFtMD:hover > .container-YkUktl > :nth-child(3) {transition: 0.5s;display: flex;}
+.container-YkUktl > :nth-child(3){display: none;transition: 0.5s;}
+/*Mute*/
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(1):hover > div > svg{margin-bottom: 8px;transition: 0.5s;transform: scale(1.1);}
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(1) > div > svg{transition: 0.2s;}
+/*Deafen*/
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(2):hover > div > svg{margin-bottom: 8px;transition: 0.5s;transform: scale(1.1);}
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(2) > div > svg{transition: 0.2s;}
+/*Settings*/
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(3):hover > div > svg{margin-bottom: 8px;transition: 0.5s;transform: scale(1.1);}
+.container-YkUktl > div.flex-2S1XBF > button:nth-child(3) > div > svg{transition: 0.2s;}
+
+/*For the people with spotify controls plugin*/
+.timeline-UWmgAx{display: none;}
+.panels-3wFtMD:hover > .container-6sXIoE > .timeline-UWmgAx{display: unset;}
+.sidebar-1tnWFu{
+    width:215px;
+    margin-bottom: 60px;
 }
